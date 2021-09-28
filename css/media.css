@@ -1,0 +1,126 @@
+/* ==================Small Devices================= * */
+@media (min-width:576px) and (max-width:767.98px) {
+    
+     /* nav bar goes to here--------- */
+     .navbar .navbar-brand {
+        padding-top: 0px;
+    }
+
+    .navbar .navbar-brand img {
+        height: 60px;
+    }
+
+    .navbar-toggler {
+        display: none;
+    }
+
+    .sidebar {
+        width: 80%;
+    }
+
+    .side_oparetor {
+        width: 40px;
+        background-image: linear-gradient(to right, #FFD019, #FF9C35);
+        text-align: center;
+        font-size: 24px;
+        color: #ffff;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+
+    .sidebar {
+        left: -80%;
+    }
+    .menu-open {
+        left: 0;
+    }
+    /* banner bar goes to here--------- */
+  
+     #banner .left_content h1 {
+        font-size: 28px;
+    }
+    #banner .left_content p {
+        font-size: 14px;
+    }
+    #banner .left_content {
+        padding-top: 100px;
+    }
+    #banner .right_content h1 {
+        font-size: 58px;
+    }
+    #banner .right_content {
+        padding-top: 150px;
+    }
+  /* product bar goes to here--------- */
+
+}
+
+/* ==================X-Small Devices================= * */
+@media (max-width:575.98px) {
+
+    /* nav bar goes to here--------- */
+    .navbar .navbar-brand {
+        padding-top: 0px;
+    }
+
+    .navbar .navbar-brand img {
+        height: 50px;
+    }
+
+    .navbar-toggler {
+        display: none;
+    }
+
+    .sidebar {
+        width: 80%;
+    }
+
+    .side_oparetor {
+        width: 40px;
+        background-image: linear-gradient(to right, #FFD019, #FF9C35);
+        text-align: center;
+        font-size: 24px;
+        color: #ffff;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+
+    .sidebar {
+        left: -80%;
+    }
+    .menu-open {
+        left: 0;
+    }
+
+        /* banner bar goes to here--------- */
+        #banner .right_content {
+            display: none;
+        }
+        #banner .left_content {
+            padding-top: 200px;
+        }
+        /* product bar goes to here--------- */
+        #product h2 {
+            line-height: 20px;
+            font-size: 24px;
+        }
+        #product .see_all a {
+            font-size: 18px;
+            line-height: 20px;
+        }
+        #product .product_main .product_img {
+            height: 200px;
+        }
+        /* footer bar goes to here--------- */
+        #footer h2 {
+            font-size: 16px;
+        }
+        /* nav bar goes to here--------- */
+
+}

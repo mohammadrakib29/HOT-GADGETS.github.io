@@ -1,0 +1,101 @@
+@import"../mixin/font";
+@import"../variable/fonts_color";
+
+#banner {
+    position: relative;
+    height: 100vh;
+    margin-bottom: 200px;
+
+    .shape {
+        position: absolute;
+        bottom: -40%;
+        left: 0;
+    }
+
+    .left_content {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 288px;
+
+        h1 {
+            @include font(41px, 500, $heading);
+        }
+
+        p {
+            @include font(18px, 300, $paragrap);
+            line-height: 36px;
+            padding-top: 30px;
+            padding-bottom: 60px
+        }
+
+        .button a {
+            @include font(20px, 500, $white);
+            background-color: $font_bg_black;
+            text-transform: uppercase;
+            padding: 10px 25px;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+            margin-bottom: 90px;
+
+            span {
+                padding-left: 10px;
+            }
+        }
+    }
+
+    .right_content{
+        height: 100vh;
+        padding-top: 50px;
+        
+        h1{
+            @include font (68px,700,$paragrap);
+            rotate: 180deg;
+            writing-mode: vertical-rl;
+            opacity: 6%;
+            position: absolute;
+            top: 10%;
+        }
+    }
+
+
+    .swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic,
+.swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+    width: 100% !important;
+}
+
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+    transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    width: 16px;
+    height: 12px;
+    border-radius: 6px !important;
+    -webkit-border-radius: 6px !important;
+    -moz-border-radius: 6px !important;
+    -ms-border-radius: 6px !important;
+    -o-border-radius: 6px !important;
+    background-color: #CECECE;
+    opacity: 1;
+
+}
+
+.swiper-pagination-bullet-active {
+    width: 45px !important;
+    height: 12px !important;
+    border-radius: 6px !important;
+    -webkit-border-radius: 6px !important;
+    -moz-border-radius: 6px !important;
+    -ms-border-radius: 6px !important;
+    -o-border-radius: 6px !important;
+    background-image: linear-gradient(to right, #FF9C35, #FFD019);
+}
+
+}
+

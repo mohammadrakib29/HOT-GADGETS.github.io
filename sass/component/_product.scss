@@ -1,0 +1,77 @@
+@import"../mixin/font";
+@import"../variable/fonts_color";
+
+#product{
+    padding-top: 140px;
+    h2{
+        @include font(30px,500,$heading);
+    }
+    .see_all {
+        a{
+            @include font(22px,500,$see);
+        }
+    }
+    .product_main2{
+        height: 550px !important;
+        margin: 0 15px;
+    }
+    .product_main{
+        margin-top: 44px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        padding: 25px 50px 65px 50px;
+        height: 652px;
+        &:hover{
+            box-shadow: none;
+        }
+        .product_img{
+            height: 300px;
+        }
+        .product_img2{
+            height: 230px !important;
+        }
+        .text{
+            margin-bottom: 35px;
+            h2{
+                @include font (19px,500,$heading);
+                padding-top: 35px;
+            }
+            p{
+                @include font (14px,300,$paragrap);
+                line-height: 30px;
+                padding-top: 15px;
+            }
+            h3{
+                @include font (20px,500,$heading);
+                line-height: 32px;
+                padding-top:8px;
+            }
+          
+            
+        }
+        .button_p{
+            a{
+                @include font (18px,500,$white);
+                text-transform: uppercase;
+                padding: 14px 25px 16px 25px;
+                background-color: $heading;
+                border-radius:9px ;
+                -webkit-border-radius:9px ;
+                -moz-border-radius:9px ;
+                -ms-border-radius:9px ;
+                -o-border-radius:9px ;
+               
+                
+            }
+            img{
+            height: 16px;
+               
+            }
+        }
+    }
+    .swiper{
+        padding-bottom: 20px;
+    }
+    .slick-list.draggable {
+        padding-bottom: 20px;
+    }
+}

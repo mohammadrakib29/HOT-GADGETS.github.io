@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./css/slick.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/media.css">
+</head>
+
+<body>
+  <!-- ====================side bar nav strat=============== -->
+
+  <div class="sidebar text-center" id="sider_nav">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="logo">
+           <a href="#"> 
+             <img src="./images/logo.png" alt="">
+            </a>
+          </div>
+          <div class="sidebar_nav">
+            <ul>
+              <li class="nav-item active">
+                <a class="nav-link " aria-current="page" href="#banner">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#product">product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#categories">about us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#footer">contact us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="social_icon">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter "></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- ====================side bar nav end=============== -->
+
+
+  <!-- ====================nav section goes to here=============== -->
+  <nav class="navbar navbar-expand-lg " id="main-header">
+    
+    <div class="container">
+     
+      <a class="navbar-brand" href="#">
+        <img src="./images/logo.png" alt="logo">
+      </a>
+      <div class="side_oparetor">
+        <i class="fa fa-bars fa-close"></i>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link " aria-current="page" href="#banner">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#product">product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#categories">about us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#footer">contact us</a>
+          </li>
+      
+        </ul>
+      </div>
+    </div>
+    
+  </nav>
+
+  <!-- ====================banner section goes to here=============== -->
+  <section id="banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-sm-6">
+          <div class="left_content">
+            <h1>Mackbook Pro</h1>
+            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
+              Latin literature.
+            </p>
+            <div class="button">
+              <a href="#">Buy Now <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-6">
+          <div class="right_content">
+            <h1>Best Products</h1>
+             <!-- Swiper -->
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./images/banner1.png" alt="" class="img-fluid w-100">
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/banner2.png" alt="" class="img-fluid w-100">
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/banner3.png" alt="" class="img-fluid w-100">
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="shape">
+      <img src="./images/shape.png" alt="shape">
+    </div>
+  </section>
+
+
+
+  <!-- ====================Product section goes to here=============== -->
+  <section id="product"> 
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-6 ">
+          <h2>Smartphone</h2>
+        </div>
+        <div class="col-lg-6 col-6">
+          <div class="see_all text-end">
+            <a href="#">See All</a>
+          </div>
+        </div>
+        
+      </div>
+      <div class="row swiper mySwiper1">
+        <div class="swiper-wrapper">
+
+          <div class="col-lg-4 swiper-slide">
+            <div class="product_main">
+              <div class="product_img text-center">
+                <img src="./images/p1.png" alt="" class="w-100 img-fluid">
+              </div>
+              <div class="text text-center">
+                <h2>iPhone 11 Pro</h2>
+                <p>Some quick example text to build on
+                  the card title.</p>
+                  <h3>$999</h3>
+                 
+              </div>
+              <div class="button_p text-center">
+                <a href="#">Buy Now  
+                  <img src="./images/arrow-forward.png" alt="">
+                </a>
+               </div>
+            </div>
+          </div>
+  
+          <div class="col-lg-4 swiper-slide">
+            <div class="product_main">
+              <div class="product_img text-center">
+                <img src="./images/p2.png" alt="" class="w-100 img-fluid">
+              </div>
+              <div class="text text-center">
+                <h2>Samsung Galaxy Note10+</h2>
+                <p>Some quick example text to build on
+                  the card title.</p>
+                  <h3>$799</h3>
+                 
+              </div>
+              <div class="button_p text-center">
+                <a href="#">Buy Now  
+                  <img src="./images/arrow-forward.png" alt="">
+                </a>
+               </div>
+            </div>
+          </div>
+  
+          <div class="col-lg-4 swiper-slide">
+            <div class="product_main">
+              <div class="product_img text-center">
+                <img src="./images/p3.png" alt="" class="w-100 img-fluid">
+              </div>
+              <div class="text text-center">
+                <h2>Redmi</h2>
+                <p>Some quick example text to build on
+                  the card title.</p>
+                  <h3>$250</h3>
+                 
+              </div>
+              <div class="button_p text-center">
+                <a href="#">Buy Now  
+                  <img src="./images/arrow-forward.png" alt="">
+                </a>
+               </div>
+            </div>
+          </div>
+          <div class="col-lg-4 swiper-slide">
+            <div class="product_main">
+              <div class="product_img text-center">
+                <img src="./images/p2.png" alt="" class="w-100 img-fluid">
+              </div>
+              <div class="text text-center">
+                <h2>Samsung Galaxy Note10+</h2>
+                <p>Some quick example text to build on
+                  the card title.</p>
+                  <h3>$799</h3>
+                 
+              </div>
+              <div class="button_p text-center">
+                <a href="#">Buy Now  
+                  <img src="./images/arrow-forward.png" alt="">
+                </a>
+               </div>
+            </div>
+          </div>
+
+        </div>
+        
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================Product section goes to here=============== -->
+  <section id="product"> 
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-6 ">
+          <h2>Laptop</h2>
+        </div>
+        <div class="col-lg-6 col-6">
+          <div class="see_all text-end">
+            <a href="#">See All</a>
+          </div>
+        </div>
+        
+      </div>
+      <div class="row product_slider">
+
+        <div class="col-lg-4">
+          <div class="product_main product_main2">
+            <div class="product_img product_img2 text-center">
+              <img src="./images/pp1.png" alt="" class="w-100 img-fluid">
+            </div>
+            <div class="text text-center">
+              <h2>Asus VivoBook </h2>
+              <p>Some quick example text to build on
+                the card title.</p>
+                <h3>$999</h3>
+               
+            </div>
+            <div class="button_p text-center">
+              <a href="#">Buy Now  
+                <!-- <img src="./images/arrow-forward.png" alt=""> -->
+                <i class="fa fa-arrow-right"></i>
+              </a>
+              
+             </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="product_main product_main2">
+            <div class="product_img  product_img2 text-center">
+              <img src="./images/pp2.png" alt="" class="w-100 img-fluid">
+            </div>
+            <div class="text text-center">
+              <h2>Razer Blade 15 </h2>
+              <p>Some quick example text to build on
+                the card title.</p>
+                <h3>$2799</h3>
+               
+            </div>
+            <div class="button_p text-center">
+              <a href="#">Buy Now  
+                <!-- <img src="./images/arrow-forward.png" alt=""> -->
+                <i class="fa fa-arrow-right"></i>
+              </a>
+             </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 ">
+          <div class="product_main product_main2">
+            <div class="product_img product_img2 text-center">
+              <img src="./images/pp3.png" alt="" class="w-100 img-fluid">
+            </div>
+            <div class="text text-center">
+              <h2>Xiaomi Mi Notebook Pro</h2>
+              <p>Some quick example text to build on
+                the card title.</p>
+                <h3>$999</h3>
+               
+            </div>
+            <div class="button_p text-center">
+              <a href="#">Buy Now  
+                <i class="fa fa-arrow-right"></i>
+                <!-- <img src="./images/arrow-forward.png" alt=""> -->
+              </a>
+             </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-4">
+          <div class="product_main product_main2">
+            <div class="product_img  product_img2 text-center">
+              <img src="./images/pp2.png" alt="" class="w-100 img-fluid">
+            </div>
+            <div class="text text-center">
+              <h2>Razer Blade 15 </h2>
+              <p>Some quick example text to build on
+                the card title.</p>
+                <h3>$2799</h3>
+               
+            </div>
+            <div class="button_p text-center">
+              <a href="#">Buy Now  
+                <!-- <img src="./images/arrow-forward.png" alt=""> -->
+                <i class="fa fa-arrow-right"></i>
+              </a>
+             </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+  <!-- ====================Categories section goes to here=============== -->
+  <section id="categories">
+    <div class="container">
+      <div class="heading text-center">
+        <h2>Categories</h2>
+        <div class="line m-auto"></div>
+      </div>
+      <div class="row">
+
+        <div class="col-lg-6 ">
+          <div class="row d-flex align-items-center ">
+            <div class="col-lg-6">
+              <div class="categories_main text-center">
+                <img src="./images/Catego.png" alt="">
+                <p>Bag</p>
+              </div>
+            </div>
+            <div class="col-lg-6 ">
+              <div class="categories_main text-center cate_2">
+                <img src="./images/Catego2.png" alt="">
+                <p>Bag</p>
+              </div>
+              <div class="categories_main text-center cate_2">
+                <img src="./images/Catego3.png" alt="">
+                <p>Bag</p>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+        <div class="col-lg-6  d-flex align-items-center">
+          <div class="catego_bg text-center">
+            <img src="./images/categobg.png" alt="" class="w-100">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================footer section goes to here=============== -->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2>Design by <span class="typed"></span></h2>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- ====================footer section goes to here=============== -->
+  <!-- ====================footer section goes to here=============== -->
+  <button class="abmshawon" data-name="topbottom" data-scrollvalue="0">
+    <i class="fa fa-arrow-up"></i>
+  </button>
+
+
+
+
+
+
+
+  <script src="./js/jquery-1.12.4.min.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/swiper-bundle.min.js"></script>
+  <script src="./js/typed.min.js"></script>
+  <script src="./js/script.js"></script>
+  <script src="./js/slick.min.js"></script>
+  <script src="./js/menuspy.min.js"></script>
+  <script src="./js/custom.js"></script>
+
+</body>
+
+</html>

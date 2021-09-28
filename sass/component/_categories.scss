@@ -1,0 +1,51 @@
+@import"../mixin/font";
+@import"../variable/fonts_color";
+
+
+#categories{
+    padding-top: 120px;
+    .heading{
+        padding-bottom: 95px;
+        h2{
+            @include font(35px,500,$heading);
+            margin-bottom: 35px;
+        }
+        .line{
+            width: 136px;
+            height: 10px;
+            background-image: linear-gradient(to right, #FFD019 , #FF9C35 );
+            border-radius: 17px;
+            -webkit-border-radius: 17px;
+            -moz-border-radius: 17px;
+            -ms-border-radius: 17px;
+            -o-border-radius: 17px;
+    }
+    }
+    .cate_2{
+        border-radius: 20px 5px 40px 5px !important;
+        -webkit-border-radius: 20px 5px 40px 5px !important;
+        -moz-border-radius: 20px 5px 40px 5px !important;
+        -ms-border-radius: 20px 5px 40px 5px !important;
+        -o-border-radius: 20px 5px 40px 5px !important;
+}
+    .categories_main{
+        height: 270px;
+        padding: 45px 0;
+            background-color: $white;
+            margin: 20px 0px;
+            border-radius: 5px 20px 5px 40px;
+            -webkit-border-radius: 5px 20px 5px 40px;
+            -moz-border-radius: 5px 20px 5px 40px;
+            -ms-border-radius: 5px 20px 5px 40px;
+            -o-border-radius: 5px 20px 5px 40px;
+            box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+            &:hover{
+                box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+            }
+        p{
+            padding-top: 30px;
+            @include font(24px,500,#050505)
+        }
+    }
+     
+}
